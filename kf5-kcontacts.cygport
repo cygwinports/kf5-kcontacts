@@ -1,7 +1,7 @@
 inherit kf5
 
 NAME="kf5-kcontacts"
-VERSION=16.08.3
+VERSION=17.04.3
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="KDE 5 address book library"
@@ -13,6 +13,7 @@ libKF5Contacts5_CONTENTS="
 	usr/bin/cygKF5Contacts-5.dll
 	usr/share/doc/${NAME}/
 	usr/share/kf5/kcontacts/
+	usr/share/locale/*/LC_MESSAGES/kcontacts5.mo
 "
 libKF5Contacts_devel_CONTENTS="
 	usr/include/KF5/KContacts/
